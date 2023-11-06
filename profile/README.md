@@ -13,6 +13,7 @@ All Known Bugs:
 KeyScribe is a tool for those who are interested in learning piano and would benefit from remote and real-time lessons. Its ability to connect wirelessly to another KeyScribe (keyboard/piano) enables interaction between a teacher and student where the keys being pressed would be transmitted to the other board. Additionally, its sheet music reading and writing functionalities serve as a bridge between the auditory and visual aspects of learning to improve a user’s understanding of music and allow them to compose their pieces.
 
 ### Completed Work
+#### [Pre-Alpha Video](https://youtube)
 | Task                  | Description                                                                                                                      |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Breadboard setup      | Built the prototype for the keyboard/piano LED and push button circuits.                                                         |
@@ -21,4 +22,14 @@ KeyScribe is a tool for those who are interested in learning piano and would ben
 | Frontend setup        | Set up the login page for users being students or teachers. Set up a simple HTML webpage to interact with the keyboard prototype.|
 
 ### Project Architecture Description
+#### External Interfaces
+- Keyboard prototype:
+  The keyboard prototype is built on a breadboard with two separate circuits.
+  * Push buttons circuit:
+    When the user presses a push button, it will send a message to the server for the server to handle it. Currently, we have the server display which push buttons were pressed. Eventually we will pass in that data to the other Raspberry Pi/keyboard and have the LEDs on the other breadboard light up. 
+  * LEDs circuit:
+    When a button on the webpage is pressed, the corresponding LED will light up. The Raspberry Pi will accept a message and handle that so that the appropriate LED is lit up on the keyboard.
+- Webpage:
+  
+#### Internal System/ Data processing
 ### Known Bugs
