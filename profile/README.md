@@ -27,3 +27,4 @@ The server is responsible for handling the requests from the webpage and the Ras
 ### Known Bugs
 - SSL encryption of the websocket communication between the Raspberry Pi and the server is not working. Currently it is operating over an insecure channel.
 - Button presses on the keyboard may result in multiple messages sent to the server. This will be resolved in the future by debouncing the switches.
+- Connecting multiple clients/Raspberry Pi-s overwhelms the server causing it to not respond at some times.
