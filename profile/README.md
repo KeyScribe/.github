@@ -3,7 +3,7 @@
 KeyScribe is a tool for those who are interested in learning piano and would benefit from remote and real-time lessons. Its ability to connect wirelessly to another KeyScribe (keyboard/piano) enables interaction between a teacher and student where the keys being pressed would be transmitted to the other board. Additionally, its sheet music reading and writing functionalities serve as a bridge between the auditory and visual aspects of learning to improve a user’s understanding of music and allow them to compose their pieces.
 
 ### Completed Work
-#### [Pre-Alpha Video](https://youtube)
+#### [Pre-Alpha Video](https://youtu.be/eNwDsNahN8E)
 | Task                  | Description                                                                                                                      |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Breadboard setup      | Built the prototype for the keyboard/piano LED and push button circuits.                                                         |
