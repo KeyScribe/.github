@@ -43,8 +43,10 @@ The system consists of two main components: a web application and a hardware mod
 #### WebApp
 1. Navigate to keyscribe-webapp
 2. Navigate to frontend
-3. Run 'npm install'
-4. Run 'npm run build'
-5. Navigate to backend
-6. Run 'npm run dev' to view live changes while developing
-7. Run 'npm test' to run the test suite
+3. Add the frontend .env file for environment variables (request from a team member)
+4. Run 'npm install'
+5. Run 'npm run build'
+6. Navigate to backend
+7. Add the backend .env file for environment variables (request from a team member)
+8. Run 'npm run dev' to view live changes while developing
+9. Run 'npm test' to run the test suite
