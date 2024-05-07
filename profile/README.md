@@ -34,7 +34,7 @@ The system consists of two main components: a web application and a hardware mod
 #### [Github](https://github.com/KeyScribe)
 
 ### Final Demo Link
-#### [Youtube] (https://youtu.be/fKgIYZKwktc?si=qjQoP15Gk4qKrKGz)
+#### [Youtube](https://youtu.be/fKgIYZKwktc?si=qjQoP15Gk4qKrKGz)
 
 ### Instructions
 #### Raspberry Pi module
